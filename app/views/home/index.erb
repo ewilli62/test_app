@@ -1,0 +1,7 @@
+<div class="hello">
+    <h1>Hello, Rails!</h1>
+    <% @users.each do |user| %>
+        <div class="name"><%= user.first_name %> <%= user.last_name %></div>
+        <div class="email"><%= user.email %></div>
+    <% end %>
+</div>
